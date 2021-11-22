@@ -9,7 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../public/css/css/style.css" />
+    <link rel="stylesheet" href="/css/jass.css">
+    <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
@@ -18,18 +19,18 @@
 
 <body>
   <header class="display-flex justify-space-between align-center p-2">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
+    <nav class="navbar">
+      <div class="navbar-brand is-big">
         <h1>Tech Blog</h1>
       </div>
 
       <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item" id="about-nav"> About </a>
+            <a href="/" class="navbar-item" > Home </a>
 
-            <a class="navbar-item" id="wmm-nav"> "Where's My Movie?" </a>
+            <a href="/api/posts" class="navbar-item"> Dashboard </a>
 
-            <a class="navbar-item" id="mood-nav"> "Mood" </a>
+            <a href="/api/users" class="navbar-item" > Login </a>
           </div>
         </div>
        </nav>

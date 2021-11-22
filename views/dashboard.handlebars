@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>
+      Create New Post
+    </h2>
+    <form class="column is-full add-post-form">
+      <label for="post_title">
+        Post Title:
+      </label>
+      <br />
+      <input class="input is-primary" id="post_title">
+        {{post_title}}
+      </input>
+      <br />
+      <label for="post_content">
+        Post
+      </label>
+      <br />
+      <textarea class="textarea is-primary" placeholder="Write Post here" id="post_content">
+        {{post_content}}
+      </textarea>
+      <br />
+      <button class="button is-primary" type="submit" value="Submit">
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+
+<script src="../public/js/add-post.js"></script>
