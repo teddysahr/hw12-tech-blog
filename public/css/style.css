@@ -1,8 +1,14 @@
 * {
   font-size: 16px;
-  background-color: aqua;
 }
 
 .navbar-brand h1 {
   font-size: 300%;
+}
+
+.title {
+  font-size: 200%;
+  background-color: white;
+  color: black;
+  padding: 30px;
 }
